@@ -74,6 +74,79 @@ By following the proper steps for version control, integration, testing, deploym
     
 
 
+### What is the role of AWS in DevOps?
+AWS has the following role in DevOps:
+
+Flexible services - Provides ready-to-use, flexible services without the need to install or set up the software.
+Built for scale - You can manage a single instance or scale to thousands using AWS services.
+Automation - AWS lets you automate tasks and processes, giving you more time to innovate
+Secure - Using AWS Identity and Access Management (IAM), you can set user permissions and policies.
+Large partner ecosystem - AWS supports a large ecosystem of partners that integrate with and extend AWS services.
+
+
+
+### What is Infrastructure As Code in Cloud Computing & How Does it Work?
+---> Administering cloud computing environments, also known as infrastructure as a service (IaaS).
+---> Infrastructure as code is not limited to the design and provision of physical computing resources. It also includes software infrastructure, such as a configurable web server and database, and components such as authentication, messaging, and identity services.
+---> higher-level services of software applications are owned and managed by IaaS vendors
+--->(IaaS) model is a convenient, scalable, platform-as-a-service model that offers cloud computing capabilities at an affordable cost to support the development and management of IT systems.
+
+
+
+
+### Describe the branching strategies you have used.
+To test our knowledge of the purpose of branching and our experience of branching at a past job, this question is usually asked. 
+
+Below topics can help in answering this DevOps interview question -
+
+Release branching - We can clone the develop branch to create a Release branch once it has enough functionality for a release. This branch kicks off the next release cycle, thus no new features can be contributed beyond this point. The things that can be contributed are documentation generation, bug fixing, and other release-related tasks. The release is merged into master and given a version number once it is ready to ship. It should also be merged back into the development branch, which may have evolved since the initial release.
+
+Feature branching - This branching model maintains all modifications for a specific feature contained within a branch. The branch gets merged into master once the feature has been completely tested and approved by using tests that are automated.
+
+Task branching - In this branching model, every task is implemented in its respective branch. The task key is mentioned in the branch name. We need to simply look at the task key in the branch name to discover which code implements which task.
+
+
+### What is the Blue/Green Deployment Pattern?
+This is a method of continuous deployment that is commonly used to reduce downtime. This is where traffic is transferred from one instance to another. In order to include a fresh version of code, we must replace the old code with a new code version. 
+
+The new version exists in a green environment and the old version exists in a blue environment. After making changes to the previous version, we need a new instance from the old one to execute a newer version of the instance.
+
+
+
+### What is Continuous Testing?
+Continuous Testing constitutes the running of automated tests as part of the software delivery pipeline to provide instant feedback on the business risks present in the most recent release. In order to prevent problems in step-switching in the Software delivery life-cycle and to allow Development teams to receive immediate feedback, every build is continually tested in this manner. This results in significant increase in speed in a developer's productivity as it eliminates the requirement for re-running all the tests after each update and project re-building.
+
+22. What is Automation Testing?
+Test automation or manual testing Automation is the process of automating a manual procedure in order to test an application or system. Automation testing entails the use of independent testing tools that allow you to develop test scripts that can be run repeatedly without the need for human interaction.
+
+
+### How to automate Testing in the DevOps lifecycle?
+Developers are obliged to commit all source code changes to a shared DevOps repository.
+
+Every time a change is made in the code, Jenkins-like Continuous Integration tools will grab it from this common repository and deploy it for Continuous Testing, which is done by tools like Selenium.
+
+
+### Why is Continuous Testing important for DevOps?
+Any modification to the code may be tested immediately with Continuous Testing. This prevents concerns like quality issues and release delays that might occur whenever big-bang testing is delayed until the end of the cycle. In this way, Continuous Testing allows for high-quality and more frequent releases.
+
+
+
+### What are the key elements of Continuous Testing tools?
+Continuous Testing key elements are:
+
+Test Optimization - It guarantees that tests produce reliable results and actionable information. Test Data Management, Test Optimization Management, and Test Maintenance are examples of aspects.
+Advanced Analysis - In order to avoid problems from occurring in the first place and to achieve more within each iteration, it employs automation in areas like scope assessment/prioritization, changes effect analysis, and static code analysis.
+Policy Analysis - It guarantees that all processes are in line with the organization's changing business needs and that all compliance requirements are met.
+Risk Assessment - Test coverage optimization, technical debt, risk mitigation duties, and quality evaluation are all covered to guarantee the build is ready to move on to the next stage.
+Service Virtualization - Ensures that real-world testing scenarios are available. Service visualisation provides access to a virtual representation of the needed testing phases, ensuring its availability and reducing the time spent setting up the test environment.
+Requirements Traceability - It guarantees that no rework is necessary and real criteria are met. To determine which needs require additional validation, are in jeopardy and performing as expected, an object evaluation is used.
+
+
+
+
+### refer:    https://www.simplilearn.com/tutorials/devops-tutorial/devops-interview-questions
+           
+
 
 
 
